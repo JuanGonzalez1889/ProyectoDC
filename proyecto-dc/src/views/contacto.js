@@ -1,7 +1,10 @@
 import React from "react";
+import "../components/tutoriales.css";
 
-const Contacto = () => {
-  return <h1>Esta es la página de contacto</h1>;
+const tutoriales = () => {
+  return (
+    <h1 class="titulos">En esta pagina te dejamos el contacto para hacer algun reclamo</h1>
+  );
 };
 
-export default Contacto;
+export default tutoriales;

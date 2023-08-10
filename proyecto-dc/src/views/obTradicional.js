@@ -3,7 +3,7 @@ import "../components/tutoriales.css";
 
 const tutoriales = () => {
   return (
-    <h1 class="titulos">En esta pagina vamos a ver tutoriales sobre Hubspot</h1>
+    <h1 class="titulos">En esta pagina vamos a ver tutoriales sobre Onboarding Tradicional</h1>
   );
 };
 

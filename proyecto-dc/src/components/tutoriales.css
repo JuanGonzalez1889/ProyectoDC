@@ -1,9 +1,43 @@
-body{
-    background-color:#FFFFFF;
+body {
+    background-color: #ecf0f1;
+    overflow-y: auto;
 }
-.titulos{
-    text-align: center;
-    font-size: 2em;
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
     font-family: "Lato", sans-serif;
-    margin-left: 266px;
+    margin-left: 256px;
+    margin-right: 18px;
+    height: 65px;
+    background-color: #2294d2;
+    color: white;
+}
+
+.youtube {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 256px;
+    padding-right: 18px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 101%;
+    padding-left: 242px;
+    justify-content: flex-start;
+    padding-top: 69px;
+    
+}
+
+.card {
+    width: 200px;
+    margin: 15px;
+}
+
+.card img {
+    width: 100%;
 }

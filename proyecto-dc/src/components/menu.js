@@ -18,7 +18,28 @@ const Menu = () => {
           <Link to="/">Inicio</Link>
         </li>
         <li>
-          <Link to="/tutoriales">Tutoriales</Link>
+          <Link to="/webag">Tutorial Web agencias</Link>
+        </li>
+        <li>
+          <Link to="/s1ejecutivo">Tutorial S1 Ejecutivo</Link>
+        </li>
+        <li>
+          <Link to="/hubspot">Tutorial Hubspot</Link>
+        </li>
+        <li>
+          <Link to="/appComerciales">Tutorial App Comerciales</Link>
+        </li>
+        <li>
+          <Link to="/obComercial">Tutorial Ob. Comercial</Link>
+        </li>
+        <li>
+          <Link to="/obTradicional">Tutorial Ob. Tradicional</Link>
+        </li>
+        <li>
+          <Link to="/dita">Tutorial Dita</Link>
+        </li>
+        <li>
+          <Link to="/dito">Tutorial Dito</Link>
         </li>
         <li>
           <Link to="/contacto">Contacto</Link>

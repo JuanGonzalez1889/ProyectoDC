@@ -1,0 +1,54 @@
+.titulosComercial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    margin-left: 256px;
+    margin-right: 18px;
+    height: 65px;
+    background-color: #2294d2;
+    color: white;
+
+}
+
+.MaxiCard {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    margin-left: 255px;
+    margin-top: 58px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card-content,
+.card-image {
+    width: 25%;
+    padding: 20px;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Esto centrará la imagen horizontalmente. */
+}
+
+.card-content {
+    width: 49%;
+    align-items: center;
+}
+
+.card-content,
+.card-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #3c82b7;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
