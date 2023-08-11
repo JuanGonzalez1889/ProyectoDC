@@ -30,7 +30,7 @@ body {
     padding-left: 242px;
     justify-content: flex-start;
     padding-top: 69px;
-    
+
 }
 
 .card {
@@ -40,4 +40,40 @@ body {
 
 .card img {
     width: 100%;
+}
+
+.search-bar {
+    margin-left: 254px;
+    margin-top: 49px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1em;
+    width: 246%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 6px 6px rgba(14, 0, 0, 0.3);
+}
+
+.search-bar input:focus {
+    border: 3px solid #2294d2;
+    outline: none;
+}
+.search-bar {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.search-bar button {
+    position: absolute;
+    right: -329px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
 }
