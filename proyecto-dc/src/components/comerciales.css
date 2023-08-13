@@ -73,3 +73,9 @@
     color: #3c82b7;
     font-family: "Poppins", sans-serif;
 }
+
+.card-listado {
+    margin-top: -40px;
+    margin-left: -46px;
+    color: #777;
+}
