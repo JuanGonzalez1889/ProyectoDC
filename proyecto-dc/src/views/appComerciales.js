@@ -3,7 +3,7 @@ import React from "react";
 import "../components/comerciales.css";
 import imagen1 from "../images/loginApp.png";
 import imagen2 from "../images/agenciaApp.png";
-import imagen3 from "../images/infoagenciaApp.png";
+import imagen3 from "../images/agenciaApp1.png";
 
 
 const Card = ({ title, image, subtitle, text, list, text1 }) => {
@@ -53,8 +53,8 @@ const tutorialesComerciales = () => {
       </h1>
       <Card
         title="El ingreso a la aplicacion de comerciales es con el mismo usuario y contraseña que utilizamos en S1 Ejecutivo "
-        subtitle="Link para ingresar a App comerciales:"
-        text="https://comercial.decreditos.com/"
+        subtitle="Link para ingresar:"
+        text="Click para ir a la App Comerciales"
         image={imagen1}
       />
       <Card
@@ -66,7 +66,7 @@ const tutorialesComerciales = () => {
         image={imagen2}
       />
       <Card
-        title="Al ingresar a la agencia vemos la siguiente información:"
+        title="Al ingresar a la agencia podemos ver la siguiente información:"
         list={listItems}
         text1="Video de ejemplo"
         image={imagen3}
