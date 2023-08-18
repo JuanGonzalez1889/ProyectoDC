@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "../components/tutoriales.css";
 import { Link } from "react-router-dom";
-import imagen6 from "../images/imagen6.jpg";
+import imagen6 from "../images/hs.png";
 
 // Componente Card
 const Card = ({ title, image, linkTo }) => {

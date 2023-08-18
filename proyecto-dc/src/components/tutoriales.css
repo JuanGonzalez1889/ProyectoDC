@@ -10,7 +10,7 @@ body {
     font-size: 22px;
     font-family: "Lato", sans-serif;
     margin-left: 256px;
-    margin-right: 18px;
+    margin-right: 20px;
     height: 65px;
     background-color: #2294d2;
     color: white;
@@ -34,8 +34,11 @@ body {
 }
 
 .card {
-    width: 200px;
+    width: 205px;
     margin: 15px;
+    height: 238px;
+    box-shadow: 0px 6px 6px rgba(14, 0, 0, 0.3);
+    text-align: center;
 }
 
 .card img {
@@ -43,7 +46,7 @@ body {
 }
 
 .search-bar {
-    margin-left: 254px;
+    margin-left: 257px;
     margin-top: 49px;
 }
 
