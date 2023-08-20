@@ -9,7 +9,7 @@ const Tutoriales = () => {
    {
      title: "Inicio de sesión",
      content:
-       "Debemos ingresar con el mismo usuario y contraseña que utilizamos en S1 ejecutivo",
+       'Debemos loguearnos con el mismo usuario y contraseña que utilizamos en S1 ejecutivo. Podes ingresar haciendo click acá: <a href="https://nuevaagencia.decreditos.com" target="_blank" rel="noopener noreferrer">Link onboarding comercial</a>.',
    },
    {
      title: "Alta de agencia",
@@ -54,9 +54,7 @@ const Tutoriales = () => {
 
   return (
     <div>
-      <h1 className="titulos">
-        En esta página vamos a ver tutorial sobre como crear Onboarding Comercial
-      </h1>
+      <h1 className="titulos">Crear nueva Agencia con Onboarding Comercial</h1>
 
       <div className="steps-container">
         {stepsData.map((step, index) => (
@@ -73,7 +71,10 @@ const Tutoriales = () => {
 
       {/* Sección para mostrar el contenido del step activo */}
       {activeStep !== null && (
-        <div className="step-content">{stepsData[activeStep].content}</div>
+        <div
+          className="step-content"
+          dangerouslySetInnerHTML={{ __html: stepsData[activeStep].content }}
+        />
       )}
 
       <video className="videoOb" width="100%" height="auto" controls>

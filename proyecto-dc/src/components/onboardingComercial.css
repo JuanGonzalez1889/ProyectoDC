@@ -76,3 +76,8 @@ body {
     font-size: 22px;
     color: gray;
 }
+.step-content a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
