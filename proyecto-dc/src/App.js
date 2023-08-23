@@ -21,6 +21,7 @@ import RegistrarLlamada from "./views/VistasHubspot/registrarLlamada";
 import RegistrarVisita from "./views/VistasHubspot/registrarVisita";
 import VisualizacionOp from "./views/VistasHubspot/visualizacionOp";
 import VisualizacionPropiedades from "./views/VistasHubspot/visualizarPropiedades";
+import EjemploAppcomerciales from "./views/VistasAppcomercial/ejemploApp"
 
 
 const App = () => {
@@ -47,7 +48,11 @@ const App = () => {
         <Route path="/registrarLlamada" element={<RegistrarLlamada />} />
         <Route path="/registrarVisita" element={<RegistrarVisita />} />
         <Route path="/visualizacionOp" element={<VisualizacionOp />} />
-        <Route path="/visualizacionPropiedades" element={<VisualizacionPropiedades />} />
+        <Route
+          path="/visualizacionPropiedades"
+          element={<VisualizacionPropiedades />}
+        />
+        <Route path="/ejemploApp" element={<EjemploAppcomerciales />} />
       </Routes>
     </Router>
   );

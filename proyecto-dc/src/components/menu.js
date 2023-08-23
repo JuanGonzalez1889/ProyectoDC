@@ -25,16 +25,16 @@ const Menu = () => {
             Inicio
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/webag" onClick={handleLinkClick}>
             Tutorial Web agencias
           </Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to="/s1ejecutivo" onClick={handleLinkClick}>
             Tutorial S1 Ejecutivo
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/hubspot" onClick={handleLinkClick}>
             Tutorial Hubspot
@@ -65,11 +65,11 @@ const Menu = () => {
             Tutorial Dito
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/contacto" onClick={handleLinkClick}>
             Contacto
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/volverMenu" onClick={handleLinkClick}>
             Volver al Menú

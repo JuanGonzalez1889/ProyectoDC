@@ -79,3 +79,47 @@
     margin-left: -46px;
     color: #777;
 }
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.centered-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.centered-container p {
+    margin-bottom: 41px;
+    font-size: 19px;
+    color: #666;
+    text-align: center;
+    margin-left: 246px;
+}
+.videoApp{
+    margin-left: 20%;
+    
+}
+.btn-volver {
+    margin-top: 20px;
+    padding: 10px 35px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-left: auto;
+    
+}
+
+.btn-volver:hover {
+    background-color: #0056b3;
+}
