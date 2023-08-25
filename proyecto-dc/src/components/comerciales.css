@@ -123,3 +123,75 @@
 .btn-volver:hover {
     background-color: #0056b3;
 }
+
+@media only screen and (max-width: 600px) {
+    .titulosComercial {
+        font-size: 14px;
+        /* Reducir más el tamaño del texto */
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .MaxiCard {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .card-content,
+    .card-image {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .card-content h2 {
+        font-size: 14px;
+        /* Reducir más el tamaño del texto */
+    }
+
+    .card-subtitle,
+    .card-text {
+        font-size: 12px;
+        /* Reducir más el tamaño del texto */
+    }
+
+    .card-image {
+        display: none;
+        /* Esconde la imagen */
+    }
+
+    .centered-container p {
+        font-size: 12px;
+        /* Reducir más el tamaño del texto */
+        margin-left: 0;
+    }
+
+    .videoApp {
+        margin-left: 0;
+    }
+}
+
+/* Estilos para dispositivos medianos (tabletas en modo retrato) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .titulosComercial {
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .MaxiCard {
+        width: 95%;
+        margin-left: 2.5%;
+        /* 2.5% de margen a la izquierda y 2.5% a la derecha = 5% en total */
+    }
+
+    .card-content h2 {
+        font-size: 18px;
+    }
+
+    .card-subtitle,
+    .card-text {
+        font-size: 16px;
+    }
+}

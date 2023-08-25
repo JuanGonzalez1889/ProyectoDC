@@ -1,0 +1,75 @@
+body {
+    background-color: #ecf0f1;
+    overflow-y: auto;
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    margin-left: 256px;
+    margin-right: 20px;
+    height: 65px;
+    background-color: #2294d2;
+    color: white;
+}
+
+.videoContainerHS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin-right:20px;
+}
+
+.videoHS {
+    width: 967px;
+    height: 427px;
+    margin-left: 238px;
+}
+.btn-volver {
+    margin-top: 20px;
+    padding: 10px 35px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-left: 88%;
+
+}
+
+.btn-volver:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para dispositivos con pantalla pequeña */
+@media only screen and (max-width: 1000px) {
+    .titulos {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .videoHS {
+        width: 80%;
+        height: auto;
+        margin-left: 0;
+    }
+}
+
+/* Estilos para dispositivos con pantalla aún más pequeña, como teléfonos móviles */
+@media only screen and (max-width: 600px) {
+    .titulos {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .videoHS {
+        width: 100%;
+    }
+}
